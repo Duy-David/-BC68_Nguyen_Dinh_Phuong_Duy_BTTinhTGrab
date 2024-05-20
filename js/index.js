@@ -118,6 +118,7 @@ function GTTHOIGIANCHO(thoigiancho, loaixe) {
   }
   return giatienthoigiacho;
 }
+
 document.getElementById("btn-inHoaDon").onclick = () => {
   // lấy dữ liệu từ người dùng và và lưu  trữ {loại xe người dùng,sokm thời diểm chớ}
   // console.log("bấm vào đây")
@@ -283,7 +284,8 @@ document.getElementById("btn-inHoaDon").onclick = () => {
 
   </tr>
 </table>
-`  }   
-  // text thử modal
+`  }
+
+// thử modal
   $("#myModal").modal("show");
 };
